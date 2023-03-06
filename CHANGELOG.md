@@ -1,3 +1,7 @@
-## 0.0.1
+# Changelog
 
-* TODO: Describe initial release.
+## 1.0.0 
+
+<!-- - Feature: init pub -->
+- Bug Fix: add plugin
+<!-- - Documentation: Update the documentation --> -->
