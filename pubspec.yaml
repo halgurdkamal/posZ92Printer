@@ -1,6 +1,6 @@
 name: posz92printer
-description: A new Flutter plugin project.
-version: 1.0.0
+description: flutter plugin for z92 & z91 pos printer you can print text, image, barcode, qrcode, and cut paper
+version: 1.0.2
 homepage: https://github.com/halgurdkamal/posZ92Printer
 
 environment:
