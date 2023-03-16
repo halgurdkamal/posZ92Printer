@@ -107,7 +107,10 @@ class _MyAppState extends State<MyApp> {
                   //     width: 200,
                   //     height: 200);
                   // await _printObj.printSpace(space: 3);
-
+                  // await _printObj.printBarCode128(
+                  //     text: "123456789",
+                  //     width: 100,
+                  //     height: 360);
                   // await _printObj.printText(
                   //   text: "this is a test for print text left",
                   //   alignment: AlignmentPrint.left,
