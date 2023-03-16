@@ -26,6 +26,15 @@ class MethodChannelPosz92printer extends Posz92printerPlatform {
       "fontSize": fontSize,
     });
   }
+   @override
+  Future<bool?> printBarCode128({
+    required String text, int width = 100, int height = 100}) async {
+    return await methodChannel.invokeMethod<bool>('printBarCode128', {
+      'text': text,
+      "width": width,
+      "height": height,
+    });
+  }
 
   // print 2 column text
   @override
