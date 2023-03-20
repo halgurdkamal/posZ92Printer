@@ -17,6 +17,15 @@ class PrinterPosSystem {
       fontSize: fontSize,
     );
   }
+  Future<bool?> printBarCode128(
+      {required String text, int width = 100, int height = 100
+      }) {
+    return Posz92printerPlatform.instance.printBarCode128(
+      text: text,
+      width: width,
+      height: height,
+    );
+  }
 
   Future<bool?> print2Column(
       {required String textLeft,

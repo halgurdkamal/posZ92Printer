@@ -33,6 +33,14 @@ abstract class Posz92printerPlatform extends PlatformInterface {
   }) {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
+  
+   Future<bool?> printBarCode128({
+    required String text,
+    int width = 100,
+    int height = 100,
+  }) {
+    throw UnimplementedError('platformVersion() has not been implemented.');
+  }
 
   Future<bool?> print2ColumnText({
     required String textLeft,
