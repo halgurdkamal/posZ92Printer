@@ -1,7 +1,7 @@
 # Changelog
 
-## 1.0.3
+## 1.0.4
 
-<!-- - Feature: init pub -->
-- Bug Fix: add plugin
+- Feature: add bar code
+<!-- - Bug Fix: add bar code  -->
 <!-- - Documentation: Update the documentation --> -->
